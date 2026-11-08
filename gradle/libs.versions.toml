@@ -1,0 +1,24 @@
+[versions]
+appcompat = "1.8.0"
+commonsText = "1.15.0"
+constraintlayout = "2.2.2"
+googleServices = "4.5.0"
+gradle = "9.5.1"
+gradleToolchainsFoojayResolverConvention = "1.0.0"
+kotlinBom = "2.4.21"
+material = "1.14.0"
+navigation = "2.10.2"
+
+[libraries]
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigation" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigation" }
+commons-text = { group = "org.apache.commons", name = "commons-text", version.ref = "commonsText" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version.ref = "kotlinBom" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+gradle-toolchains-foojay-resolver-convention = { id = "org.gradle.toolchains.foojay-resolver-convention", version.ref = "gradleToolchainsFoojayResolverConvention" }

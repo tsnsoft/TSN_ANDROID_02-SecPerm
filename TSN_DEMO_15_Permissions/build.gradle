@@ -1,28 +1,28 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 35
+    compileSdkVersion 37
     defaultConfig {
         applicationId "kz.talipovsn.permissions"
         minSdkVersion 25
-        targetSdkVersion 35
-        versionCode 4
-        versionName "2025.02"
+        targetSdkVersion 37
+        versionCode 5
+        versionName "2026"
     }
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     namespace 'kz.talipovsn.permissions'
 }
 
 dependencies {
-    implementation 'com.google.android.material:material:1.12.0'
-    implementation 'org.apache.commons:commons-text:1.10.0'
-    implementation 'androidx.appcompat:appcompat:1.7.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
-    implementation 'androidx.navigation:navigation-fragment:2.8.6'
-    implementation 'androidx.navigation:navigation-ui:2.8.6'
+    implementation libs.material
+    implementation libs.commons.text
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui
 }

@@ -19,8 +19,6 @@ import android.webkit.URLUtil;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.io.File;
-
 public class MainActivity extends AppCompatActivity {
 
     final String PSU_URL = "https://tou.edu.kz/images/links/gos_vestnik.png"; // Картинка для загрузки

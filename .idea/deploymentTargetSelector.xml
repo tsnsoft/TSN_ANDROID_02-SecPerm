@@ -2,9 +2,9 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="TSN_DEMO_08_Security">
+      <SelectionState runConfigName="TSN_DEMO_15_Permissions">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-12-10T10:56:13.951278800Z">
+        <DropdownSelection timestamp="2024-12-10T10:55:49.937439300Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\talip\.android\avd\Galaxy_Nexus_API_25.avd" />
@@ -13,7 +13,7 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="TSN_DEMO_15_Permissions">
+      <SelectionState runConfigName="TSN_DEMO_08_Security">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-12-10T10:55:49.937439300Z">
           <Target type="DEFAULT_BOOT">
